@@ -1,221 +1,232 @@
 body{margin: 0;padding: 0;}
 
 .header {
-  width: 100%;
-  height: 50vh;
-  background: url(../image/1280px-0.10_Exhibition.jpg) center no-repeat;
-  background-size: cover;
-  box-shadow:0 0 0 50vh rgba(0, 0, 0, 0.33) inset;
+ width: 100%;
+ height: 50vh;
+ background: url(../image/1280px-0.10_Exhibition.jpg) center no-repeat;
+ background-size: cover;
+ box-shadow:0 0 0 50vh rgba(0, 0, 0, 0.33) inset;
 }
-
-/*.nav{
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-padding:39px 0;
-z-index: 20;
-display: flex;
-}*/
 
 .nav{
-  display: flex;
-  padding: 39px 0;
+ display: flex;
+ padding: 39px 0;
 }
-
 
 .left_side,.right_side{flex: 1 1 auto;}
-
 .left_side{
-display: flex;
-justify-content: flex-start;
-padding-left: 5%;
+ display: flex;
+ justify-content: flex-start;
+ padding-left: 5%;
 }
 .nav a {
-display: block;
-padding: 10px 15px;
-color: #fff;
-text-decoration: none;
-font-size: 16px;
-text-transform: uppercase;
-transition: 0.3s;
+ display: block;
+ padding: 10px 15px;
+ color: #fff;
+ text-decoration: none;
+ font-size: 16px;
+ text-transform: uppercase;
+ transition: 0.3s;
 }
 
 .nav a:hover{color: #BDBDBD;}
 
-.right_side{display: flex;
-justify-content: flex-end;
-padding-right: 5%;}
+.right_side{
+ display: flex;
+ justify-content: flex-end;
+ padding-right: 5%;
+}
 
-.right_side ul {list-style: none;
-margin: 0; 
-padding: 0; 
-display: inline-flex;}
+.right_side ul {
+ list-style: none;
+ margin: 0; 
+ padding: 0; 
+ display: inline-flex;
+}
 
 .right_side>ul>li {position:relative;}
 
-.subnav {position: absolute;
-width: 100%;
-/*top: 100%;*/
-flex-flow: column;
-transition: 0.3s;
-opacity: 0;
-visibility: hidden;
+.subnav {
+ position: absolute;
+ width: 100%;
+ flex-flow: column;
+ transition: 0.3s;
+ opacity: 0;
+ visibility: hidden;
 }
+
 .subnav a:hover{color:#BDBDBD;}
-.right_side>ul>li:hover .subnav {
-opacity: 1;
-visibility: visible;
+
+.right_side>ul>li:hover .subnav{
+ opacity: 1;
+ visibility: visible;
 }
 
 .logo { color: #FFF;
-width: 100%;
-font-size: 75px;
-padding: 10px 0;
-flex: 1 1 auto;
-text-align: center;
+ width: 100%;
+ font-size: 75px;
+ padding: 10px 0;
+ flex: 1 1 auto;
+ text-align: center;
 /*position: relative;*/
 /*z-index: 10;*/
 }
 
 .flex{
-display: flex;
-flex-wrap: wrap;
+ display: flex;
+ flex-wrap: wrap;
 }
 
 .column{
-flex-flow: column;
+ flex-flow: column;
 }
 
 .center_all{
-justify-content: center;
-align-items: center;
+ justify-content: center;
+ align-items: center;
 }
 
-.buttons{margin-top: 14px;
-justify-content: center;
-flex: 1;
-position: relative;
-z-index:100;}
+.buttons{
+ margin-top: 14px;
+ justify-content: center;
+ flex: 1;
+ position: relative;
+ z-index:100;
+}
 
-.button{display: block;
-padding: 10px 15px;
-color: #fff;
-text-decoration: none;
-border: 1px solid #fff;
-border-radius: 4px;
-transition: 0.3s;
-margin: 0 10px;
-position: relative;
+.button{
+ display: block;
+ padding: 10px 15px;
+ color: #fff;
+ text-decoration: none;
+ border: 1px solid #fff;
+ border-radius: 4px;
+ transition: 0.3s;
+ margin: 0 10px;
+ position: relative;
 }
 
 .button:hover{
-color: #000;
-background: #fff;
+ color: #000;
+ background: #fff;
 }
 
 .occurrence{
-padding: 20px 40px;
-box-sizing: border-box;
-background: linear-gradient(to 
-	bottom right, 
+ padding: 20px 40px;
+ box-sizing: border-box;
+ background: linear-gradient(to 
+  bottom right, 
 	rgba(0,0,0,0.1),
 	rgba(0,0,0,0.6));
 }
 
 .headline{ 
-width: 100%;
-justify-content: center;
-align-content: center;
+ width: 100%;
+ justify-content: center;
+ align-content: center;
 }
 
 .image{
-height: 250px;
-margin: 0 5px 5px 0;
-float: left;
+ height: 250px;
+ margin: 0 5px 5px 0;
+ float: left;
 
 }
 
 .russianruturism{
-width: 100%;
-padding: 10px 20px;
-box-sizing: border-box;
-background: url(../image/ga2_1913_N210_s5.jpg) 
-center no-repeat;
-background-size: cover;
-display: flex;
-flex-wrap:wrap;
-position:relative;
-box-shadow:0 0 0 50vh 
-rgba(0, 0, 0, 0.33) 
-inset;}
+ width: 100%;
+ padding: 10px 20px;
+ box-sizing: border-box;
+ background: url(../image/ga2_1913_N210_s5.jpg) 
+ center no-repeat;
+ background-size: cover;
+ display: flex;
+ flex-wrap:wrap;
+ position:relative;
+ box-shadow:0 0 0 50vh 
+  rgba(0, 0, 0, 0.33) inset;
+}
 
 .russianruturismtext{
-width: 100%;
-text-align: center;
-position: relative;
-z-index: 70;
-color: #fff;
-text-align: justify;
-padding: 10px 20px;}
+ width: 100%;
+ text-align: center;
+ position: relative;
+ z-index: 70;
+ color: #fff;
+ text-align: justify;
+ padding: 10px 20px;
+}
 
 .footer {
 background: 
-linear-gradient(
+ linear-gradient(
 	to bottom right,
-	 rgba(0,0,0,0.4), 
-	 rgba(0,0,0,0.8));
+	rgba(0,0,0,0.4), 
+	rgba(0,0,0,0.8));
 padding: 15px 3em;
 display: flex;
 }
+
 .footer>div{
-flex:1 1 auto;
+ flex:1 1 auto;
 }
+
 .lg{font-size: 55px;
-text-transform: uppercase;
-line-height: 65px;
+ text-transform: uppercase;
+ line-height: 65px;
 }
-.fr {display: flex;
-justify-content: flex-end;}
+
+.fr {
+ display: flex;
+ justify-content: flex-end;
+}
+
 f menu a:not(last-child){margin: bottom:10px;}
+
 .mayakheader{
-width: 100%;
-height: 30vh;
-background: url(../mayak1.jpg);
+ width: 100%;
+ height: 30vh;
+ background: url(../mayak1.jpg);
 }
+
 @media (max-width: 786px;){
 right-side{display: none;}
 }
 .neofuturism{
-	padding: 10px 40px;
-	box-sizing: border-box;
-    background: 
-    linear-gradient(
-    	to bottom right,
-    	 rgba(0,0,0,0.4), 
-    	 rgba(0,0,0,0.8));
-position: relative;
-align-items: center;
+ padding: 10px 40px;
+ box-sizing: border-box;
+ background:
+  linear-gradient(
+  to bottom right,
+  rgba(0,0,0,0.4), 
+  rgba(0,0,0,0.8));
+ position: relative;
+ align-items: center;
 }
 
 .nf{
-background: red;
+ background: red;
 }
+
 .neofuturismtext{
-color: #fff;}
-.buttonwork {display: block;
-padding: 10px 15px;
-color: #fff;
-text-decoration: none;
-border: 1px solid #fff;
-border-radius: 4px;
-transition: 0.3s;
-margin: 0 10px;
-position: relative;
+ color: #fff;
 }
+.buttonwork {
+ display: block;
+ padding: 10px 15px;
+ color: #fff;
+ text-decoration: none;
+ border: 1px solid #fff;
+ border-radius: 4px;
+ transition: 0.3s;
+ margin: 0 10px;
+ position: relative;
+}
+
 .buttonwork:hover{
-color: #000;
-background: #fff;}
+ color: #000;
+ background: #fff;
+}
 
 
 
