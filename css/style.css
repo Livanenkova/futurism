@@ -68,8 +68,6 @@ body{margin: 0;padding: 0;}
  padding: 10px 0;
  flex: 1 1 auto;
  text-align: center;
-/*position: relative;*/
-/*z-index: 10;*/
 }
 
 .flex{
@@ -130,7 +128,6 @@ body{margin: 0;padding: 0;}
  height: 250px;
  margin: 0 5px 5px 0;
  float: left;
-
 }
 
 .russianruturism{
@@ -144,7 +141,7 @@ body{margin: 0;padding: 0;}
  flex-wrap:wrap;
  position:relative;
  box-shadow:0 0 0 50vh 
-  rgba(0, 0, 0, 0.33) inset;
+ rgba(0, 0, 0, 0.33) inset;
 }
 
 .russianruturismtext{
