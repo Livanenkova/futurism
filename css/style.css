@@ -219,6 +219,7 @@ right-side{display: none;}
 .neofuturismtext{
  color: #fff;
 }
+
 .buttonwork {
  display: block;
  padding: 10px 15px;
@@ -244,5 +245,7 @@ right-side{display: none;}
  align-items: center;
 }
 
-
+.egofuturismtext{
+ color: #fff;
+}
 
